@@ -8,8 +8,8 @@ void main() {
   String input = stdin.readLineSync()!;
   // Parse the input as an integer.
   try {
-    int num = int.parse(input);
-    print(hello_world.calculate(num));
+    num number = int.parse(input);
+    print(hello_world.calculate(number));
   } catch (e) {
     print('Invalid input! Please enter a number.');
   }

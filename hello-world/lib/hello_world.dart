@@ -1,3 +1,3 @@
-int calculate(int number) {
+num calculate(num number) {
   return number * number;
 }
