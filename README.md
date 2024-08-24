@@ -7,3 +7,7 @@ A repo to hold my Dart learnings.
 ## [hello-world](https://github.com/Aaron-G-Sanchez/DART/tree/main/hello-world)
 
 A simple app to prompt a user for a number, and return the square of the given number.
+
+## [codewars](https://github.com/Aaron-G-Sanchez/DART/tree/main/codewars)
+
+A repo to hold solutions on Dart codewars challenges.
