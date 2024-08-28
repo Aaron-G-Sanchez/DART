@@ -1,4 +1,5 @@
 import 'package:codewars/descending_order.dart';
+import 'package:codewars/is_prime.dart';
 import 'package:codewars/odd_or_even.dart';
 import 'package:test/test.dart';
 
@@ -15,5 +16,13 @@ void main() {
     expect(oddOrEven(7), 'Odd');
     expect(oddOrEven(18), 'Even');
     expect(oddOrEven(102), 'Even');
+  });
+
+  test('Is Prime', () {
+    expect(isPrime(4), false);
+    expect(isPrime(1), false);
+    expect(isPrime(7), true);
+    expect(isPrime(128), false);
+    expect(isPrime(2017), true);
   });
 }

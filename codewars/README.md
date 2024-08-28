@@ -9,3 +9,9 @@ _A collection of codewars problems._
 ## [Even or Odd - 8Kyu](https://www.codewars.com/kata/53da3dbb4a5168369a0000fe)
 
 - A function to return based on whether a given number is `Odd` or `Even`.
+
+# Structy course conversion
+
+## isPrime
+
+- A function that returns `true` or `false` depending on if a given number is prime.
