@@ -2,7 +2,7 @@ import 'user.dart';
 
 class Scooter {
   late String station;
-  late User user;
+  late User? user;
   late int serialNumber;
   late int charge;
   late bool isRented;

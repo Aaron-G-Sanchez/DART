@@ -20,5 +20,5 @@ void main() {
   // Print user and scooter details.
   print('User: ${newUser.name} (${newUser.email})');
   print(
-      'Scooter location: ${newScooter.station}, rented by: ${newScooter.user.name}');
+      'Scooter location: ${newScooter.station}, rented by: ${newScooter.user!.name}');
 }
